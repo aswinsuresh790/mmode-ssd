@@ -37,7 +37,7 @@ def detect_objects(our_image):
     
     import urllib.request
 
-    url1 = 'https://github.com/akshay-augustine-sheby/mmode-ssd/releases/tag/ssdothers/frozen_inference_graph.pb'
+    url1 = 'https://github.com/aswinsuresh790/mmode-ssd/releases/tag/ssdakshay/frozen_inference_graph.pb'
     hf1 = url1.split('/')[-1]
 
     urllib.request.urlretrieve(url1, hf1)
@@ -45,7 +45,7 @@ def detect_objects(our_image):
 
     # List of the strings that is used to add correct label for each box.
     
-    url2 = 'https://github.com/akshay-augustine-sheby/mmode-ssd/releases/tag/ssdothers/label_map.pbtxt'
+    url2 = 'https://github.com/aswinsuresh790/mmode-ssd/releases/tag/ssdakshay/label_map.pbtxt'
     hf2 = url2.split('/')[-1]
 
     urllib.request.urlretrieve(url2, hf2)
